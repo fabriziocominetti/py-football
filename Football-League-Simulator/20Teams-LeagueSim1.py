@@ -1,4 +1,5 @@
 import math
+
 import random
 
 H_PARAMETER = 1.148698355
@@ -67,16 +68,11 @@ def simulate_league(teams):
 
 if __name__ == "__main__":
     teams = [
-        Team(input("Team with power 1: "), 1), Team(input("Team with power 2: "), 2),
-        Team(input("Team with power 3: "), 3), Team(input("Team with power 4: "), 4),
-        Team(input("Team with power 5: "), 5), Team(input("Team with power 6: "), 6),
-        Team(input("Team with power 7: "), 7), Team(input("Team with power 8: "), 8),
-        Team(input("Team with power 9: "), 9), Team(input("Team with power 10: "), 10),
-        Team(input("Team with power 11: "), 11), Team(input("Team with power 12: "), 12),
-        Team(input("Team with power 13: "), 13), Team(input("Team with power 14: "), 14),
-        Team(input("Team with power 15: "), 15), Team(input("Team with power 16: "), 16),
-        Team(input("Team with power 17: "), 17), Team(input("Team with power 18: "), 18),
-        Team(input("Team with power 19: "), 19), Team(input("Team with power 20: "), 20)
+        Team("Atalanta", 14), Team("Bari", 1), Team("Brescia", 5), Team("Bologna", 8),
+        Team("Cagliari", 12), Team("Cremonese", 2), Team("Fiorentina", 13), Team("Genoa", 6),
+        Team("Inter", 18), Team("Juventus", 19), Team("Lazio", 15), Team("Milan", 20),
+        Team("Monza", 3), Team("Napoli", 16), Team("Parma", 11), Team("Roma", 17),
+        Team("Reggiana", 4), Team("Sampdoria", 10), Team("Torino", 9), Team("Udinese", 7)
     ]
 
     for team in teams:
