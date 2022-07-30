@@ -4,18 +4,16 @@ A collection of Football-related Python scripts and projects.
 
 ## About
 
-- x
-```
-x
-```
+- Series of scripts related to football analysis, from web scraping to data visualization.
 
 ## Repository overview
 
 ```
 ├── README.md
-├── x
-├── x
-└── x
+├── data-viz
+├── intro-data_analysis
+├── machine-learning
+└── web-scraping
 ```
 
 ## Inspirations & Acknowledgments
